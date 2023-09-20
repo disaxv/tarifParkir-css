@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background: #0f2c59
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFfadd
+}
+.container {
+    width: 250px;
+    background: #8ecddd;
+    margin:80px auto;
+    padding: 30px 20px;
+}
+
+label {
+    font-size: 11pt;
+    color: #fffadd;
+    display: block;
+    font-wight: bold;
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background: #fffadd;
+    color: #0f2c59;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+}

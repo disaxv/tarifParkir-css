@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarif parkir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1>Tarif Parkir Anda</h1>
+     <div class="container">
+        <form id="parking-form">
+            <label for="jam-parkir">Jam parkir :</label>
+            <input type="number" id="jam-parkir" placeholder="jam parkir" min="1" required>
+
+            <label for="jenis-kendaraan">jenis kendaraan:</label>
+            <select name="jenisKendaraan" class="custom-select" id="jenis-kendaraan" required>
+                <option value="motor">motor</option>
+                <option value="mobil">mobil</option>
+            </select>
+            <button id="result">OK</button>
+        </form>
+     </div>
+</body>
+<script src="script.js"></script>
+</html>
